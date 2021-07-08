@@ -68,7 +68,6 @@ btn.addEventListener('click', () => {
 })
 
 // Delete Tasks
-
 const deleteTask = index => {
     todoItemElems[index].classList.add('deletion');
     setTimeout(() => {
